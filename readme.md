@@ -11,4 +11,6 @@
 4. Lenguanje markdown
 
 [Google](https://www.google.com/)
+![galleta](assets/images/galleta.jpg "galleta")
+
 
