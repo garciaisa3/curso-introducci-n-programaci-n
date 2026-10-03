@@ -5,22 +5,22 @@
     padding: 0;
 }
 :root{
-    --main-color:#FBEFEF;
-    --secundary-color:#FFE2E2;
-    --tercer-color:#F5CBCB;
-    --purpuraclaro:#C5B3D3;
+    --main-color:#462C7D;
+    --secundary-color:#831C91;
+    --tercer-color:#D552A3;
+    --rosa:#FF70BF;
     --white:#ffff;
     --negro:#0000;
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--secundary-color);
+    background-color: var(--white);
     font-family: "Poppins", sans-serif;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: var(--white);
+    background-color: var(--main-color);
     padding: 1rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -29,7 +29,7 @@ ul{
     list-style: none;
 }
 a{
-    color: var(--main-color);
+    color: var(--negro);
     text-decoration: none;
 }
 .navbar-list{
@@ -40,7 +40,7 @@ a{
 }
 .nav-link {
     padding: 1rem 0.75rem;
-    color: var(--tercer-color);
+    color: var(--white);
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 500;
@@ -50,7 +50,7 @@ a{
 }
 .nav-link:hover,
 .nav-link:focus-visible {
-    color:var(--black);
+    color:var(--rosa);
     outline: none;
 }
 .navbar-brand {
@@ -62,4 +62,57 @@ a{
     height: 2.5rem;
     width: auto;
     display: block;
+}
+
+/* quienes somos*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-reponsive{
+    width: 600px;
+    height: auto;
+}
+.container h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+p {
+    font-size: 1em;
+    font-weight: 400;
+}
+.pd-30 {
+    padding: 30px;
+}
+
+/*titulo*/
+.title {
+    text-align: center;
+}
+
+/*servicios*/
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.servicios h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color:var(--main-color);
+}
+.servicios i{
+    color:#462C7D;
+    font-size: 30px;
+}
+.servicios i:hover {
+    color:#D552A3
+}
+.title{
+    text-align: center;
+    line-height: 1.5em;
+}
+.title{
+    font-size: 28px;
+    color: var(--main-color)
 }
