@@ -1,0 +1,29 @@
+/*servicios*/
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.servicios .col{
+    margin-top: 40px;
+}
+.servicios h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color:var(--main-color);
+}
+.servicios i{
+    color:#462C7D;
+    font-size: 30px;
+}
+.servicios i:hover {
+    color:#D552A3
+}
+.title{
+    text-align: center;
+    line-height: 1.5em;
+}
+.title h2{
+    font-size: 28px;
+    color: var(--main-color)
+}

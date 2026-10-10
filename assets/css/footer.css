@@ -1,0 +1,14 @@
+.footer-container{
+    background-color: var(--main-color);
+    padding: 10px;
+    color: rgb(246, 251, 255);
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    margin: 0px; 
+}
+.logo-footer{
+    width: 120px;
+}
