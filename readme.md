@@ -13,4 +13,15 @@
 [Google](https://www.google.com/)
 ![galleta](assets/images/galleta.jpg "galleta")
 
+### clase 4 Menu sitio web
+### clase 5 seccin de servicios
+### clase 6 servicios footer
+### clase 7 evaluacion de ingles
+### clase 8 solucinando errores
+### clase 9
+-Contacto
+-Google Maps
+### clase 10- Animaciones
+### clase 11- Responsive
+### clase 12- Tailwind
 
